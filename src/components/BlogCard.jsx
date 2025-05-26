@@ -1,4 +1,3 @@
-// src/components/BlogCard.jsx
 import { Link } from "react-router-dom";
 
 const BlogCard = ({ blog }) => {

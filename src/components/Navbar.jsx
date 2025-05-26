@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
@@ -11,7 +10,7 @@ const Navbar = () => {
     <nav className="bg-[#2f1b0c] text-white shadow-md">
   <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
     <div className="flex items-center space-x-2">
-      <span className="text-2xl"><img src="./src/assets/logo.png"  className="w-18 h-10" alt="" /></span>
+      <span className="text-2xl"><img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30164225/572-768x591.png"  className="w-18 h-10" alt="" /></span>
       <h1 className="text-2xl font-bold text-white">BlogHub</h1>
     </div>
     <div className="space-x-6 text-md font-medium">

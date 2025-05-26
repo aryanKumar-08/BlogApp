@@ -1,4 +1,4 @@
-// src/pages/Home.jsx
+
 import { useState } from 'react';
 import BlogCard from '../components/BlogCard';
 import { Link } from 'react-router-dom';
@@ -28,7 +28,7 @@ const Home = () => {
           </Link>
         </div>
 
-        {/* Blog Cards */}
+        
         {blogs.length === 0 ? (
           <p className="text-center text-gray-200 text-xl">No blogs posted yet.</p>
         ) : (

@@ -1,4 +1,3 @@
-// src/pages/BlogDetail.jsx
 import { useParams, Link } from 'react-router-dom';
 
 const BlogDetail = () => {
