@@ -17,7 +17,7 @@ const Navbar = () => {
       <a href="/" className="hover:text-yellow-400 transition">Home</a>
      
        <Link
-            to="/add"
+            to="add"
             className="bg-yellow-600 text-white px-5 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition"
           >
             + Add Blog
