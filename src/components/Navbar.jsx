@@ -15,7 +15,13 @@ const Navbar = () => {
     </div>
     <div className="space-x-6 text-md font-medium">
       <a href="/" className="hover:text-yellow-400 transition">Home</a>
-      <a href="https://bloghubv1.netlify.app/+/add" className="bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-md transition">+ Add Blog</a>
+     
+       <Link
+            to="/add"
+            className="bg-yellow-600 text-white px-5 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition"
+          >
+            + Add Blog
+          </Link>
     </div>
   </div>
 </nav>
